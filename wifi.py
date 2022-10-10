@@ -5,6 +5,6 @@ rssi_scanner = rssi.RSSI_Scan(interface)
 
 ssids = ['NISER-AP']
 
-ap_info = rssi_scanner.getAPinfo(sudo=True)
+ap_info = rssi_scanner.getAPinfo()
 
 print(ap_info)
